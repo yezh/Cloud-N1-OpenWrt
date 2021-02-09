@@ -18,20 +18,21 @@
   - [x] 添加主题 opentomacat 并设置为默认
   - [x] 添加第三方插件 luci-app-openclash
   - [ ] 添加无线功能（待测试）
-  - [ ] 启用 Docker （系统——启动项：启动）
+  - [x] 启用 Docker （系统——启动项：启动）
   - [x] 添加第三方插件 luci-app-vssr
 
 **精简项**：
   - [x] luci-app-accesscontrol
   - [x] luci-app-adbyby-plus
-  - [x] luci-app-airplay2
+  - [x] luci-app-arpbind
   - [x] luci-app-ddns
   - [x] luci-app-ipsec-vpnd
+  - [x] luci-app-rclone
   - [x] luci-app-upnp
+  - [x] luci-app-uugamebooster
   - [x] luci-app-vsftpd
   - [x] luci-app-xlnetacc
   - [x] luci-app-zerotier
-  - [x] luci-app-ssr-plus
 
 ![snapshot.png](https://i.loli.net/2020/04/07/krxPtyBf6hmzYLq.png)
 
