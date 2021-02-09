@@ -303,12 +303,12 @@ cat >> .config <<EOF
 # CONFIG_PACKAGE_v2ray-plugin is not set
 EOF
 # Add luci-app-vssr
-git clone https://github.com/jerrykuku/lua-maxminddb.git package-temp/lua-maxminddb
-git clone https://github.com/jerrykuku/luci-app-vssr.git package-temp/luci-app-vssr
-mv -f package-temp/lua-maxminddb package/lean/
-mv -f package-temp/luci-app-vssr package/lean/
-cat >> .config <<EOF
-CONFIG_PACKAGE_lua-maxminddb=y
-CONFIG_PACKAGE_luci-app-vssr=y
-EOF
+#git clone https://github.com/jerrykuku/lua-maxminddb.git package-temp/lua-maxminddb
+#git clone https://github.com/jerrykuku/luci-app-vssr.git package-temp/luci-app-vssr
+#mv -f package-temp/lua-maxminddb package/lean/
+#mv -f package-temp/luci-app-vssr package/lean/
+#cat >> .config <<EOF
+#CONFIG_PACKAGE_lua-maxminddb=y
+#CONFIG_PACKAGE_luci-app-vssr=y
+#EOF
 rm -rf package-temp
